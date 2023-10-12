@@ -2,9 +2,9 @@ package jp.wasabeef.example.recyclerview
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SwitchCompat
+import android.view.View
 
 /**
  * Created by Daichi Furiya / Wasabeef on 2020/08/26.
