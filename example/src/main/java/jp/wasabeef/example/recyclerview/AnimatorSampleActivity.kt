@@ -31,6 +31,7 @@ import jp.wasabeef.recyclerview.animators.SlideInDownAnimator
 import jp.wasabeef.recyclerview.animators.SlideInLeftAnimator
 import jp.wasabeef.recyclerview.animators.SlideInRightAnimator
 import jp.wasabeef.recyclerview.animators.SlideInUpAnimator
+import jp.whatipoli.recycler.animator
 
 /**
  * Created by Daichi Furiya / Wasabeef on 2020/08/26.
@@ -62,6 +63,8 @@ class AnimatorSampleActivity : AppCompatActivity() {
   }
 
   private val adapter = MainAdapter(this, SampleData.LIST.toMutableList())
+
+  private val adapter2 = MainAdapter(this, SampleData.LIST.toMutableList())
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
